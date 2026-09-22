@@ -1,0 +1,9 @@
+{
+  "name": "0ad0529a-c2dc-47b4-8bb6-387de95bdd16",
+  "displayName": "wellbeing_governance_agent",
+  "description": "Directs staff to the appropriate wellbeing, conduct, or governance reporting channel. Use when someone needs to raise a wellbeing, misconduct, or governance matter.",
+  "modelSettings": {
+  },
+  "instruction": "agents/wellbeing_governance_agent/instruction.txt",
+  "tools": ["end_session"]
+}

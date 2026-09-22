@@ -1,0 +1,9 @@
+{
+  "name": "a8c383a0-ff70-4ebc-a71a-14f5af65382b",
+  "displayName": "waste_recycling_agent",
+  "description": "Explains waste disposal rules, recycling procedures, and contamination steps. Use for any waste, recycling, or disposal question.",
+  "modelSettings": {
+  },
+  "instruction": "agents/waste_recycling_agent/instruction.txt",
+  "tools": ["end_session"]
+}

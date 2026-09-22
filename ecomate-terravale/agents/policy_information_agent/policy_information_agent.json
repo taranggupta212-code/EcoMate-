@@ -1,0 +1,9 @@
+{
+  "name": "49ecbd5a-10a5-49af-81cc-29f3699a2957",
+  "displayName": "policy_information_agent",
+  "description": "Answers staff questions about Terravale\u0027s sustainability, governance, and sustainable-procurement policies from its embedded policy summary. Use for any policy or procurement question.",
+  "modelSettings": {
+  },
+  "instruction": "agents/policy_information_agent/instruction.txt",
+  "tools": ["end_session"]
+}

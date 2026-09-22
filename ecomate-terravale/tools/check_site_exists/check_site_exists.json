@@ -1,0 +1,10 @@
+{
+  "name": "26e9246f-4e15-46c6-9bf1-dcc2a7e7475f",
+  "pythonFunction": {
+    "name": "check_site_exists",
+    "pythonCode": "tools/check_site_exists/python_function/python_code.py",
+    "description": "Checks whether a reported location matches a known Terravale Facilities Group site.\n\nArgs:\n    site_name: The site or location the staff member named.\n\nReturns:\n    dict: valid True with the matched site name if it is a known Terravale site,\n    or valid False with the list of known sites if it is not recognised."
+  },
+  "executionType": "SYNCHRONOUS",
+  "displayName": "check_site_exists"
+}

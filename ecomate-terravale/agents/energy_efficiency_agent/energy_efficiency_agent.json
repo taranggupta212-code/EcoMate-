@@ -1,0 +1,9 @@
+{
+  "name": "ca18def7-ff25-4d4f-a4f7-03c22321959c",
+  "displayName": "energy_efficiency_agent",
+  "description": "Answers questions and gives guidance on reducing energy use and reporting inefficient equipment or operations. Use for energy-saving advice or reporting energy inefficiency.",
+  "modelSettings": {
+  },
+  "instruction": "agents/energy_efficiency_agent/instruction.txt",
+  "tools": ["end_session"]
+}

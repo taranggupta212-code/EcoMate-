@@ -1,0 +1,10 @@
+{
+  "name": "4667ff60-3907-4a93-a4a4-94f6dd4df0f8",
+  "pythonFunction": {
+    "name": "generate_accessibility_reference",
+    "pythonCode": "tools/generate_accessibility_reference/python_function/python_code.py",
+    "description": "Generates a unique accessibility report reference number in the format ACC-XXXX.\n\nReturns:\n    dict: A dictionary with a single key \u0027reference_number\u0027 whose value is a\n    string like \u0027ACC-3106\u0027 (ACC- followed by four random digits)."
+  },
+  "executionType": "SYNCHRONOUS",
+  "displayName": "generate_accessibility_reference"
+}

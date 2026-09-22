@@ -1,0 +1,10 @@
+{
+  "name": "ae2aa8b7-f8f2-49ea-9abc-7e031a9c1b77",
+  "pythonFunction": {
+    "name": "remember_name",
+    "pythonCode": "tools/remember_name/python_function/python_code.py",
+    "description": "Stores the staff member\u0027s first name for use during the conversation.\n\nArgs:\n    name: The staff member\u0027s first name.\n\nReturns:\n    dict: A dictionary confirming the stored name."
+  },
+  "executionType": "SYNCHRONOUS",
+  "displayName": "remember_name"
+}

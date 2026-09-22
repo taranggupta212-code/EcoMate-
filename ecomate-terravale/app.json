@@ -1,0 +1,44 @@
+{
+  "name": "ff9fa4c5-7eeb-4ea4-ae30-9d9f7f5923c5",
+  "displayName": "ecomate-terravale",
+  "rootAgent": "EcoMate Assistant",
+  "audioProcessingConfig": {
+    "synthesizeSpeechConfigs": {
+      "en-US": {
+      }
+    }
+  },
+  "loggingSettings": {
+    "conversationLoggingSettings": {
+      "retentionWindow": "31536000s"
+    }
+  },
+  "guardrails": ["Default Safety Guardrail", "Default Prompt Guardrail"],
+  "modelSettings": {
+    "temperature": 1.0
+  },
+  "variableDeclarations": [{
+    "name": "last_reference_number",
+    "schema": {
+      "type": "STRING",
+      "default": null
+    }
+  }, {
+    "name": "user_name",
+    "schema": {
+      "type": "STRING",
+      "default": null
+    }
+  }],
+  "languageSettings": {
+    "defaultLanguageCode": "en-US"
+  },
+  "defaultChannelProfile": {
+  },
+  "timeZoneSettings": {
+    "timeZone": "America/Los_Angeles"
+  },
+  "toolExecutionMode": "PARALLEL",
+  "errorHandlingSettings": {
+  }
+}

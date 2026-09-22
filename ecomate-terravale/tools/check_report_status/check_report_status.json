@@ -1,0 +1,10 @@
+{
+  "name": "1b037acf-5c51-4db0-be4c-11aa6dfb9534",
+  "pythonFunction": {
+    "name": "check_report_status",
+    "pythonCode": "tools/check_report_status/python_function/python_code.py",
+    "description": "Looks up the current status of a filed Terravale report by its reference number.\n\nArgs:\n    reference_number: The report reference, e.g. \u0027ECO-2274\u0027 or \u0027ACC-3106\u0027.\n\nReturns:\n    dict: The reference, a status, and a plain-language note. If the reference\n    is not a valid ECO- or ACC- reference, returns an error status."
+  },
+  "executionType": "SYNCHRONOUS",
+  "displayName": "check_report_status"
+}

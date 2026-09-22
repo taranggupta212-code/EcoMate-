@@ -1,0 +1,9 @@
+{
+  "name": "f86f4cf0-597f-4f36-91ea-b16b7173d414",
+  "displayName": "incident_reporting_agent",
+  "description": "Collects a structured sustainability incident report — energy waste, water leak, waste contamination, unsafe disposal, or facilities issue — confirms the details, and issues a reference number. Use when a staff member wants to report an environmental or facilities problem.",
+  "modelSettings": {
+  },
+  "instruction": "agents/incident_reporting_agent/instruction.txt",
+  "tools": ["check_site_exists", "end_session", "generate_reference_number"]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "f4bcec54-3cd1-4590-a3bd-8f49920548ce",
+  "pythonFunction": {
+    "name": "generate_reference_number",
+    "pythonCode": "tools/generate_reference_number/python_function/python_code.py",
+    "description": "Generates a unique incident reference number in the format ECO-XXXX and stores it for later recall.\n\nReturns:\n    dict: A dictionary containing the reference number under both the\n    reference_number key and the last_reference_number key."
+  },
+  "executionType": "SYNCHRONOUS",
+  "displayName": "generate_reference_number"
+}

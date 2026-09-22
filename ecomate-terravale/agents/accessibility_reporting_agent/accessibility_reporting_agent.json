@@ -1,0 +1,9 @@
+{
+  "name": "7808d5ea-4d4e-400b-abc6-1e9ce04e34e1",
+  "displayName": "accessibility_reporting_agent",
+  "description": "Collects a report about an accessibility barrier or inclusion concern and the required follow-up action. Use when a staff member raises an accessibility or inclusion issue.",
+  "modelSettings": {
+  },
+  "instruction": "agents/accessibility_reporting_agent/instruction.txt",
+  "tools": ["check_site_exists", "end_session", "generate_accessibility_reference"]
+}

@@ -1,0 +1,9 @@
+{
+  "name": "dbf71827-b31f-45d9-ad9c-145dee4d53c3",
+  "displayName": "EcoMate Assistant",
+  "modelSettings": {
+  },
+  "instruction": "agents/EcoMate_Assistant/instruction.txt",
+  "tools": ["end_session", "remember_name"],
+  "childAgents": ["accessibility_reporting_agent", "energy_efficiency_agent", "incident_reporting_agent", "policy_information_agent", "status_agent", "waste_recycling_agent", "wellbeing_governance_agent"]
+}

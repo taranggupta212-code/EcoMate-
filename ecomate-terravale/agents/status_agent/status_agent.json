@@ -1,0 +1,7 @@
+{
+  "name": "d0b62623-975a-4baa-9815-c6bbddd51f6a",
+  "displayName": "status_agent",
+  "description": "Looks up the current status of a previously filed report using its reference number (ECO- or ACC-). Use when a staff member wants to check on a report they have already submitted.",
+  "instruction": "agents/status_agent/instruction.txt",
+  "tools": ["check_report_status", "end_session"]
+}
